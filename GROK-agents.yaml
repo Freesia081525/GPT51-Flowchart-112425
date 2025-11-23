@@ -1,0 +1,21 @@
+agents:
+  - name: "醫療法規分析專家"
+    model: "gpt-4o"
+    provider: "openai"
+    description: "專精醫療器材法規比較"
+    system_prompt: "你是醫療器材法規領域的頂尖專家，特別擅長UDI與來源流向追蹤規範。"
+    
+  - name: "流程圖設計師"
+    model: "claude-3-5-sonnet-20241022"
+    provider: "anthropic"
+    description: "能將任何文字轉成美觀專業的Mermaid流程圖"
+    
+  - name: "Grok-4 醫療顧問"
+    model: "grok-4"
+    provider: "xai"
+    description: "xAI 最強模型，適合複雜跨國法規分析"
+    
+  - name: "Gemini 1.5 Pro 視覺流程專家"
+    model: "gemini-1.5-pro"
+    provider: "gemini"
+    description: "擅長產生結構化流程圖與多語言輸出"
