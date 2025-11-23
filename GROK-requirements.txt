@@ -1,0 +1,8 @@
+streamlit>=1.38
+pyyaml
+mermaid-py
+openai
+google-generativeai
+anthropic
+groq   # for xAI Grok API (or use openai-compatible endpoint)
+python-dotenv
